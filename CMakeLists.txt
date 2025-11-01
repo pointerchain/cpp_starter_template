@@ -5,4 +5,4 @@ project(ProjectName)
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(cpp_project_name src/main.cpp)
+add_executable(${PROJECT_NAME} src/main.cpp)
