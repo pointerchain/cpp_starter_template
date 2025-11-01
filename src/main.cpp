@@ -1,4 +1,5 @@
 #include <cstdlib>
+#include <iostream>
 #include <print>
 
 int main() {
@@ -6,4 +7,4 @@ int main() {
 
   std::cin.get();
   return 0;
-}
+}W
