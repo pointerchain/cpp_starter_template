@@ -4,6 +4,6 @@
 int main() {
   std::println("Hello, World!");
 
-  system("pause");
+  std::cin.get();
   return 0;
 }
