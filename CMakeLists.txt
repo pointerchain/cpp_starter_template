@@ -17,7 +17,7 @@ target_include_directories(${PROJECT_NAME} PRIVATE include)
 # find_package(EnTT CONFIG REQUIRED)
 #
 # target_link_libraries(${PROJECT_NAME} PRIVATE
-#   fml::system
+#   sfml::system
 #   sfml::window
 #   sfml::graphics
 #   EnTT::EnTT
