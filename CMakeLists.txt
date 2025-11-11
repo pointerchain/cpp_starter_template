@@ -11,14 +11,12 @@ add_executable(${PROJECT_NAME}
 
 target_include_directories(${PROJECT_NAME} PRIVATE include)
 
-# Example: Using vcpkg dependencies
-#
-# find_package(SFML 2.6 COMPONENTS system window graphics CONFIG REQUIRED)
+# find_package(SFML COMPONENTS System Window Graphics CONFIG REQUIRED)
 # find_package(EnTT CONFIG REQUIRED)
-#
+
 # target_link_libraries(${PROJECT_NAME} PRIVATE
-#   sfml::system
-#   sfml::window
-#   sfml::graphics
+#   SFML::System
+#   SFML::Window
+#   SFML::Graphics
 #   EnTT::EnTT
 # )
