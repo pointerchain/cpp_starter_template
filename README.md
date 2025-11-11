@@ -13,7 +13,7 @@
 ```bash
 cmake --preset default
 cmake --build --preset default
-build/2d_platformer
+build/default/2d_platformer
 ```
 
 ## Example
